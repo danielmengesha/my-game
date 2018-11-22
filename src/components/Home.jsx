@@ -8,6 +8,7 @@ class Home extends React.Component{
     return(
       <div className="container">
         <h4 className="center">Home</h4>
+        <div>content</div>
         <FetchRandom />
     </div>
 
