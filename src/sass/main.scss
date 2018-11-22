@@ -1,0 +1,74 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    padding: 20px;
+    animation: App-logo-spin infinite 10s linear;
+    height: 10vmin;
+  }
+  
+  
+  .box{
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #768eb9;
+  
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #d2dcee;
+    max-width: 60%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(37, 51, 66);
+
+  }
+  
+  .App-login {
+    background-color: #d2dcee;
+    max-width: 60%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(37, 51, 66);
+  }
+  
+  .App-header {
+    background-color: #cccccc5d;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(37, 51, 66);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .brett {
+    background-color: #d2dcee;
+  
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
