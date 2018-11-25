@@ -6,10 +6,13 @@ class Home extends React.Component{
 
   render(){
     return(
+      <div>
       <div className="container">
         <h4 className="center">Home</h4>
-        <div>content</div>
-        <FetchRandom />
+        
+       
+    </div>
+    <FetchRandom />
     </div>
 
     )

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="nav">
           <ul className="nav">
             {navItems.map((item) => {
-              return <li >
+              return <li key="index">
                         <Link className="nav-link" to={item}>{item}</Link>
                      </li>
             })}

@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Login from './components/Login'
 
 import './css/main.css';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -24,7 +25,7 @@ class App extends Component {
           <Route path='/contact' component={Contact} />
           <Route path='/login' component ={Login} />
          
-          
+          <Footer/>
       </div>
           
       

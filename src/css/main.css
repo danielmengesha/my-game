@@ -6324,9 +6324,20 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 5px;
   border-radius: 3px;
   font-size: 14px;
-  background-color: #768eb9; }
+  background-color: #b9cae9; }
 
 .container {
+  border-radius: 5px;
+  max-width: 60%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #253342; }
+
+.login {
   border-radius: 5px;
   background-color: #d2dcee;
   max-width: 60%;

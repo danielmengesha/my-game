@@ -48,7 +48,7 @@ class Login extends React.Component {
     };
     
     console.log(this.passed.email);
-    let errors = "";
+   /*  let errors = ""; */
     let errorMessages = {
       email: "Invalid email address."
     };
@@ -62,7 +62,7 @@ class Login extends React.Component {
         passed.email = true;
         this.setState(initialState)
       } else {
-        errors += errorMessages.email;
+       /*  errors += errorMessages.email; */
       }
     }
   };
@@ -80,8 +80,11 @@ class Login extends React.Component {
 
   render() {
     return (
+      
       <div className="container">
         <h4>Please Log In</h4>
+        
+        <div className="login">
         <form onSubmit={this.handleSubmit}>
           {this.state.errors && <ErrorMessage message={this.state.errors} />}
           <div className="form-group">
@@ -120,6 +123,8 @@ class Login extends React.Component {
           </div>
         </form>
       </div>
+      </div>
+    
     );
   }
 }
